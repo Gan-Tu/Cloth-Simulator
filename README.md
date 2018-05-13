@@ -6,8 +6,38 @@ You can read my detailed [writeup](https://michael-tu.github.io/Cloth-Simulator/
 
 ## Glimpse of Results
 
+![Animated Demo](docs/assets/img/demo2.png)
+
 ![Demo](docs/assets/img/demo.png)
 
+## Running Cloth Simulator
+
+Running the program with zero arguments will load up the default scene (`scene/pinned2.json`). 
+
+Otherwise, to load a specific scene, run the program as follows:
+
+```
+./clothsim -f ../scene/<my_scene>.json
+```
+
+For example, running the following command without any code will produce an empty scene.
+
+```
+./clothsim
+```
+
+## Using the GUI
+
+Besides the actual graphical user interface that you can work with using your mouse to tweak cloth parameters and dynamically change external forces, there are several keyboard commands that you might find useful.
+
+Command Key
+Pause simulation    P
+(while paused) Go forward 1 timestep    N
+Restart simulation  R
+End simulation  ESCAPE
+Reset camera to default position    SPACE
+Rotate camera   (click and drag, or right click)
+Pan camera  (hold control + click and drag, or right click)
 
 ## Build System
 
