@@ -6,7 +6,7 @@ You can read my detailed [writeup](https://michael-tu.github.io/Cloth-Simulator/
 
 ## Glimpse of Results
 
-![Animated Demo](docs/assets/img/demo2.png)
+![Animated Demo](docs/assets/img/demo2.gif)
 
 ![Demo](docs/assets/img/demo.png)
 
@@ -14,30 +14,61 @@ You can read my detailed [writeup](https://michael-tu.github.io/Cloth-Simulator/
 
 Running the program with zero arguments will load up the default scene (`scene/pinned2.json`). 
 
+```
+./clothsim
+```
+
 Otherwise, to load a specific scene, run the program as follows:
 
 ```
 ./clothsim -f ../scene/<my_scene>.json
 ```
 
-For example, running the following command without any code will produce an empty scene.
+### Specific Animations
+
+To load a hanging cloth, run:
 
 ```
-./clothsim
+./clothsim -f ../scene/pinned2.json
+```
+
+To load a pinned cloth, run:
+
+```
+./clothsim -f ../scene/pinned4.json
+```
+
+To load a cloth falling on to a sphere, run:
+
+```
+./clothsim -f ../scene/sphere.json
+```
+
+To load a cloth falling on to a plane, run:
+
+```
+./clothsim -f ../scene/plane.json
+```
+
+To load a cloth falling onto itself, run:
+
+```
+./clothsim -f ../scene/selfCollision.json
 ```
 
 ## Using the GUI
 
-Besides the actual graphical user interface that you can work with using your mouse to tweak cloth parameters and dynamically change external forces, there are several keyboard commands that you might find useful.
+Besides the actual graphical user interface that you can work with using your mouse to tweak cloth parameters and dynamically change external forces, there are several **keyboard commands** that you might find useful.
 
-Command Key
-Pause simulation    P
-(while paused) Go forward 1 timestep    N
-Restart simulation  R
-End simulation  ESCAPE
-Reset camera to default position    SPACE
-Rotate camera   (click and drag, or right click)
-Pan camera  (hold control + click and drag, or right click)
+Command | Key
+------- | -----
+Pause simulation    | P
+(while paused) Go forward 1 timestep   |  N
+Restart simulation  | R
+End simulation |  ESCAPE
+Reset camera to default position   |  SPACE
+Rotate camera  |  (click and drag, or right click)
+Pan camera  | (hold control + click and drag, or right click)
 
 ## Build System
 
