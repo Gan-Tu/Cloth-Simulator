@@ -6,9 +6,13 @@ You can read my detailed [writeup](https://michael-tu.github.io/Cloth-Simulator/
 
 ## Glimpse of Results
 
-![Animated Demo](docs/assets/img/demo2.gif)
-
 ![Demo](docs/assets/img/demo.png)
+
+**Animation**
+
+_Note: the following animation may take a while to load before it starts moving_
+
+![Animated Demo](docs/assets/img/demo2.gif)
 
 ## Running Cloth Simulator
 
