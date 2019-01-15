@@ -1,6 +1,10 @@
 # Cloth-Simulator
 A real-time cloth simulation engine
 
+## Code Protection
+
+Upon request of the course staff, the source code will not be shown publicly on GitHub. The source code is currently password protected, zipped in `src.zip`. To request for the password for unzipping the source file, send me an email.
+
 ## Write-Up
 You can read my detailed [writeup](https://michael-tu.github.io/Cloth-Simulator/) to understand what features I have implemented, how I developed them, see many of the cool results, and view side-by-side comparisons of the performance by different techniques.
 
@@ -79,6 +83,12 @@ Pan camera  | (hold control + click and drag, or right click)
 If you don't have [CMake](https://cmake.org) (version >= 2.8) on your personal computer, you can install it using `apt-get` on Linux or `Macports/Homebrew` on OS X. Alternatively, you can download it directly from the CMake website.
 
 To build the code, start in the folder that GitHub made or that was created when you unzipped the download. 
+
+#####
+You will need to unzip the `src.zip` to get the source code first!
+
+Upon request of the course staff, the source code will not be shown publicly on GitHub. The source code is currently password protected, zipped in `src.zip`. To request for the password for unzipping the source file, send me an email.
+#####
 
 Run
 ```
