@@ -1,4 +1,7 @@
 # Cloth-Simulator
+
+[![Build Status](https://travis-ci.com/Michael-Tu/Cloth-Simulator.svg?branch=master)](https://travis-ci.com/Michael-Tu/Cloth-Simulator)
+
 A real-time cloth simulation engine
 
 ## Code Protection
