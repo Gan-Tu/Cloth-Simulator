@@ -9,7 +9,7 @@ A real-time cloth simulation engine
 Upon request of the course staff, the source code will not be shown publicly on GitHub. The source code is currently password protected, zipped in `src.zip`. To request for the password for unzipping the source file, send me an email.
 
 ## Write-Up
-You can read my detailed [writeup](https://michael-tu.github.io/Cloth-Simulator/) to understand what features I have implemented, how I developed them, see many of the cool results, and view side-by-side comparisons of the performance by different techniques.
+You can read my detailed [writeup](https://gan-tu.github.io/Cloth-Simulator/) to understand what features I have implemented, how I developed them, see many of the cool results, and view side-by-side comparisons of the performance by different techniques.
 
 ## Glimpse of Results
 
